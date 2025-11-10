@@ -1,0 +1,103 @@
+/* ===== ESTILOS PARA EL TÍTULO PRINCIPAL ===== */
+.titulo{
+    text-align: center;        /* Centra el texto horizontalmente */
+    font-size: 50px;          /* Tamaño grande para el título principal */
+    color: #000;              /* Color negro para el texto */
+} 
+
+/* ===== ESTILOS PARA EL PÁRRAFO DE INICIO ===== */
+.parraf-inicio{
+    margin: 23px auto;        /* 23px de espacio arriba/abajo, centrado horizontalmente */
+    padding: 23px 0;          /* 23px de espacio interno arriba/abajo, 0 a los lados */
+    text-align: center;       /* Texto centrado */
+    max-width: 70%;           /* Ancho máximo del 70% del contenedor padre */
+}
+
+/* ===== ESTILOS PARA LA LISTA DE CAPÍTULOS ===== */
+.lista-capitulos{
+    max-width: 100em;         /* Ancho máximo de 100 unidades 'em' (relativo al tamaño de fuente) */
+    margin: 0 auto;           /* Sin espacio arriba/abajo, centrado horizontalmente */
+    padding: 10px;            /* 10px de espacio interno en todos los lados */
+}
+
+/* ===== ESTILOS PARA CADA CAPÍTULO INDIVIDUAL ===== */
+.capitulo{
+    margin-bottom: 40px;      /* 40px de espacio debajo de cada capítulo */
+    padding: 20px;            /* 20px de espacio interno en todos los lados */
+    border-left: 4px solid rgb(223, 234, 142); /* Borde izquierdo amarillo de 4px */
+    background: #f9f9f9;      /* Color de fondo gris muy claro */
+}
+
+/* ===== ESTILOS PARA LOS TÍTULOS DE CAPÍTULO ===== */
+.capitulo-titulo{
+    color: #0c67de;          /* Color azul para los títulos */
+    margin-bottom: 15px;      /* 15px de espacio debajo del título */
+}
+
+/* ===== ESTILOS PARA EL TEXTO DE CADA CAPÍTULO ===== */
+.capitulo-texto{
+    line-height: 1.6;         /* Espacio entre líneas de texto (1.6 veces el tamaño de fuente) */
+    margin-bottom: 15px;      /* 15px de espacio debajo del párrafo */
+}
+
+/* ===== ESTILOS PARA LAS IMÁGENES DE CAPÍTULO ===== */
+.capitulo-imagen{
+    width: 100%;              /* Ocupa el 100% del ancho disponible de su contenedor */
+    max-width: 600px;         /* Pero nunca más de 600px de ancho */
+    height: auto;             /* Altura se ajusta automáticamente para mantener proporciones */
+    border-radius: 8px;       /* Esquinas redondeadas de 8px */
+    display: block;           /* Hace que la imagen se comporte como un bloque (ocupa línea completa) */
+    margin: 0 auto;           /* Sin espacio arriba/abajo, centrada horizontalmente */
+}
+
+/* ===== ESTILOS PARA LA SECCIÓN EPÍLOGO ===== */
+.Epilogo{
+    max-width: 80%;           /* Ancho máximo del 80% del contenedor padre */
+    margin: 17px auto;        /* 17px de espacio arriba/abajo, centrado horizontalmente */
+    padding: 20px;            /* 20px de espacio interno en todos los lados */
+    border-left: 4px solid rgb(223, 234, 142); /* Borde izquierdo amarillo igual que los capítulos */
+    background: #f9f9f9;      /* Mismo color de fondo que los capítulos */
+}
+
+/* ===== ESTILOS PARA EL PIE DE PÁGINA (AUTORES) ===== */
+.autores{
+    text-align: center;       /* Todo el contenido centrado */
+    margin: 20px auto;        /* 20px de espacio arriba/abajo, centrado horizontalmente */
+    padding: 20px;            /* 20px de espacio interno en todos los lados */
+    max-width: 600px;         /* Ancho máximo de 600px */
+    font-size: 20px;          /* Tamaño de fuente grande */
+    color: #000;              /* Color negro para el texto */
+    border-top: 2px solid #ccc; /* Línea gris de 2px en la parte superior */
+}
+
+/* ===== ESTILOS PARA LA TABLA ===== */
+.tabla-machupicchu {
+    width: 100%;              /* Ocupa el 100% del ancho disponible */
+    border-collapse: collapse; /* Las bordes de las celdas se unen en una sola línea */
+    margin: 20px 0;           /* 20px de espacio arriba y abajo */
+}
+
+/* ===== ESTILOS PARA EL TÍTULO DE LA TABLA ===== */
+.tabla-machupicchu caption {
+    font-weight: bold;        /* Texto en negrita */
+    padding: 10px;            /* 10px de espacio interno */
+    margin-bottom: 10px;      /* 10px de espacio debajo */
+}
+
+/* ===== ESTILOS PARA LAS CELDAS DE LA TABLA ===== */
+.tabla-machupicchu th,       /* Aplica a celdas de encabezado */
+.tabla-machupicchu td {      /* Y a celdas normales */
+    padding: 8px;             /* 8px de espacio interno en las celdas */
+    border: 1px solid #ccc;   /* Borde gris claro de 1px */
+}
+
+/* ===== ESTILOS ESPECIALES PARA ENCABEZADOS DE TABLA ===== */
+.tabla-machupicchu th {
+    background-color: #f0f0f0; /* Fondo gris claro para encabezados */
+    font-weight: bold;        /* Texto en negrita para encabezados */
+}
+
+/* ===== ESTILOS PARA FILAS PARES DE LA TABLA ===== */
+.tabla-machupicchu tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fondo gris muy claro para filas pares (mejor legibilidad) */
+}
